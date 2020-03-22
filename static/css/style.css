@@ -1,0 +1,36 @@
+body {
+    background-color: #A4C2A5;
+    color: black;
+}
+.navbar {
+    background-color: #566246;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: #4A4A48;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#even {
+    background-color: #F1F2EB;
+}
+
+#odd {
+    background-color: #D8DAD3;
+}
+
+.d-flex {
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}

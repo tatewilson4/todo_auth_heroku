@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h3>Todo Item Details</h3>
+    <div class="d-flex" id="odd">
+        <div class="mr-auto p-2">{{ object.item }}</div>
+        <div class="p-2"><a class="list_item_links" href="{% url "todo_edit" object.id %}"> edit </a></div>
+        <div class="p-2"><a class="list_item_links" href="{% url "todo_delete" object.id %}"> delete </a></div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>Whatcha Wanna Do?</h1>
+    <form method="post" class="d-flex">{% csrf_token %}
+        {{ form.item }}
+        <input class="submit_input" type="submit" value="Submit" />
+    </form>
+</div>
+{% endblock %}
